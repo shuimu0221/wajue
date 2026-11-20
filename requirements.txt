@@ -1,0 +1,19 @@
+# 基础
+numpy>=2.0
+pandas>=2.2
+pyarrow>=15
+scipy
+scikit-learn
+lightgbm
+
+# 化学 / 质谱（版本见 docs/01）
+# 判分用 RDKit 2026.03.3，本地必须锁同一版本，见 docs/01-环境与数据准备.md §2
+rdkit==2026.3.3
+matchms
+ms_entropy
+
+# 深度学习（C 用）
+torch
+
+# Kaggle 本地下载（推理时不依赖）
+kaggle

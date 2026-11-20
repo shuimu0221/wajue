@@ -1,0 +1,98 @@
+{
+  "id": 143318,
+  "competitionName": "enveda-CASMI26-molecule-id-mass-spectra",
+  "title": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+  "briefDescription": "Predict 2D chemical structures of small molecules detected in complex biological extracts",
+  "dateEnabled": "2026-09-14T22:57:37.417Z",
+  "deadline": "2026-12-14T23:59:00Z",
+  "hasLeaderboard": true,
+  "leaderboardPercentage": 31,
+  "maxDailySubmissions": 5,
+  "numScoredSubmissions": 2,
+  "hasSolution": true,
+  "numPrizes": 5,
+  "forumId": 11293906,
+  "userRankMultiplier": 1,
+  "dateCreated": "2026-05-18T20:41:21.563820600Z",
+  "competitionHostSegmentId": 1,
+  "maxTeamSize": 5,
+  "medalsAllowed": true,
+  "teamMergerExplicitDeadline": "2026-12-07T23:59:00Z",
+  "prohibitNewEntrantsExplicitDeadline": "2026-12-07T23:59:00Z",
+  "kernelsPublishingDisabledDeadline": "2026-12-07T23:59:00Z",
+  "organizationId": 5326,
+  "hasCoverImageUrl": true,
+  "hasScripts": true,
+  "onlyAllowKernelSubmissions": true,
+  "totalTeams": 5589,
+  "totalCompetitors": 6281,
+  "totalSubmissions": 144230,
+  "rulesRequired": true,
+  "usesSynchronousReruns": true,
+  "maxCpuRuntimeMinutes": 540,
+  "maxGpuRuntimeMinutes": 540,
+  "rowIdColumnName": "molecule_id",
+  "requiredSubmissionFilename": "submission.csv",
+  "evaluationAlgorithm": {
+    "id": 7599,
+    "name": "CASMI: Mean Average Precision",
+    "isMax": true,
+    "environmentRenderType": "ENVIRONMENT_RENDER_TYPE_JSON",
+    "kernelId": 133620699,
+    "latestCompetitionMetricVersionId": 75774,
+    "state": "AVAILABLE"
+  },
+  "categories": [
+    {
+      "id": 7100,
+      "name": "biology",
+      "fullPath": "subject > earth and nature > biology",
+      "description": "Explore datasets and kernels about gene expressions, transcriptomics, and even the works of Charles Darwin.",
+      "datasetCount": 18339,
+      "competitionCount": 47,
+      "scriptCount": 7163,
+      "slug": "biology",
+      "displayName": "Biology"
+    },
+    {
+      "id": 7402,
+      "name": "chemistry",
+      "fullPath": "subject > earth and nature > physical science > chemistry",
+      "description": "Chemistry addresses topics such as how atoms and molecules interact via chemical bonds to form new chemical compounds.",
+      "datasetCount": 1461,
+      "competitionCount": 16,
+      "scriptCount": 16345,
+      "slug": "chemistry",
+      "displayName": "Chemistry"
+    },
+    {
+      "name": "custom metric",
+      "description": "This competition's metric is defined under the 'Evaluation' tab",
+      "displayName": "Custom Metric"
+    }
+  ],
+  "organization": {
+    "slug": "enveda",
+    "name": "Enveda",
+    "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/5326/thumbnail.png?t=2026-09-01-22-57-31",
+    "profileUrl": "/organizations/enveda"
+  },
+  "launched": true,
+  "createdByUserId": 8939556,
+  "license": {
+    "id": 14,
+    "name": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)",
+    "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "agreementRequired": false
+  },
+  "hostName": "Enveda",
+  "scoreTruncationNumDecimals": 3,
+  "rerunMaxStaggerMinutes": 5,
+  "totalJoinedUsers": 14003,
+  "requiresIdentityVerification": true,
+  "submissionSizeLimitMb": 20480,
+  "reward": {
+    "id": "USD",
+    "quantity": 50000
+  }
+}
