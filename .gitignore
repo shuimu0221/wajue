@@ -29,3 +29,15 @@ __pycache__/
 .idea/
 .DS_Store
 Thumbs.db
+
+# ---------- 废弃的临时文件（可安全删除，不值得入库）----------
+# 测试用假数据
+_ingest_test/
+# pyarrow 装好之前写的自定义 parquet 解析器，已被取代
+code/_pqmeta.py
+# NPAtlas REST API 抓取器；该接口现在全部 307 重定向，已改用 Kaggle Dataset
+code/_fetch_npatlas.py
+# 抓取时的 SPA 空壳，无内容
+_research/overview_shell.html
+# 与 page_data-description.md 完全重复
+_research/page_data_description.txt
